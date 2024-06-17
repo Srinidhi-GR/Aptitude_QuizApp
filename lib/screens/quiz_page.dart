@@ -36,6 +36,10 @@ class _QuizPageState extends State<QuizPage> {
       quizBrain.addAnswers();
       setState(
         () {
+          option1 = flase;
+          option2 = false;
+          option3 = false;
+          option4 = false;
           quizBrain.incrementQuestion();
         },
       );
